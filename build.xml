@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="CCraft" default="make" basedir=".">
+	
+	<target name="make">
+		<jar destfile="CCraft-Gnu-Unifont-hd.zip">
+			<fileset dir="hd">
+				<include name="**"/>
+			</fileset>
+		</jar>
+		<jar destfile="CCraft-Gnu-Unifont-blending.zip">
+			<fileset dir="blending">
+				<include name="**"/>
+			</fileset>
+		</jar>
+		<jar destfile="CCraft-Gnu-Unifont-normal.zip">
+			<fileset dir="normal">
+				<include name="**"/>
+			</fileset>
+		</jar>
+	</target>
+	
+</project>
